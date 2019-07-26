@@ -1,0 +1,69 @@
+.LandingPage-wrapper{
+    width: 100%;
+    display: flex;
+    min-height: calc(100vh - 86.4px);
+    justify-content: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    background-image: url(../images/collaborate.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-blend-mode: multiply;
+    background-color: rgba(1,1,1,0.6);
+}
+.LandingPage-atom-wrapper{
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+}
+.LandingPage-atom{
+    width: 100px;
+    height: 100px;
+    animation-name: rotateAtom;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+.LandingPage-item{
+    flex: 1 1 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+.LandingPage-item a{
+    color: white;
+    font-size: 20px;
+}
+.LandingPage-title{
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.02rem;
+}
+.LandingPage-projectManagement{
+    text-shadow: 4px 4px 2px rgba(1,1,1,1);
+}
+.LandingPage-message{
+    font-size: 30px;
+}
+.LandingPage-asking{
+    font-size: 16px;
+}
+@keyframes rotateAtom{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media(max-width: 400px){
+    .LandingPage-title{
+        font-size: 30px;
+    }
+}
