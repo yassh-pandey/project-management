@@ -1,3 +1,48 @@
+**This is how the application looks like**
+
+
+**The major functions of the web-app are:**
+
+1) Routing
+This is routing
+2) Login/Logout
+
+3) Sign up
+
+4) Post content
+
+5) Put public comments on various posts
+
+6) Approve project (special feature only accessible to the admin)
+
+7) Display different views based on user (Approvers will have different view then that of a normal user)
+
+8) Storing data on to the remote database-server.
+
+9) Cloud functions in action on database trigger.
+
+10) Responsive, so works well on popular mobile device’s viewport.
+
+11) Implement security and protect data integrity using Cloud Firestore security rules.
+
+The dashboard will show all the project management actions that have been submitted and the
+projects that have been approved will be shown with a green tick on the top. All this will
+appear in a card layout.
+
+To ensure that only registered users are able to able to access the portal, a login feature is
+required. The users can login using their respective registered email addresses and
+secured passwords.
+
+The web-app must enable the users to post their ideas. The ideas will be collected using HTML form
+element and on a button click event, the submission process will begin.
+The data thus collected will be successfully posted to the back-end database server (Firebase Firestore in our case).
+
+Redux is used to handle the application's state. 
+
+React router is used for single page application routing.(more efficient)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
