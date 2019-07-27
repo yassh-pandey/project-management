@@ -1,10 +1,59 @@
-**This is how the application looks like**
+# This is how the application looks like
 
+**Landing Page**
 
-**The major functions of the web-app are:**
+Redux is used to handle the application's state. 
+
+React router is used for single page application routing.(more efficient)
+
+![](./src/images/gitHubPics/landingPage.jpg)
+
+**Sign up**
+
+To ensure that only registered users are able to able to access the portal, a login/signup feature is
+required. The users can login using their respective registered email addresses and
+secured passwords.
+
+![](./src/images/gitHubPics/pm_signup.gif)
+
+**Dashboard**
+
+The dashboard will show all the project management actions that have been submitted and the
+projects that have been approved will be shown with a green tick on the top. All this will
+appear in a card layout.
+
+![](./src/images/gitHubPics/dashboard.png)
+
+**Create new project update**
+
+The web-app must enable the users to post their ideas. The ideas will be collected using HTML form
+element and on a button click event, the submission process will begin.
+The data thus collected will be successfully posted to the back-end database server (Firebase Firestore in our case).
+
+![](./src/images/gitHubPics/pm_newproj_comm.gif)
+
+**Handlind invalid routes**
+
+![](./src/images/gitHubPics/err404.png)
+
+**Admin view (which is visible when someone logs in with admin credentials**
+
+![](./src/images/gitHubPics/adminView.png)
+
+![](./src/images/gitHubPics/adminGrantSucc.png)
+
+![](./src/images/gitHubPics/tickOverProj.png)
+
+![](./src/images/gitHubPics/pm_approvalCancel.gif)
+
+**Responsive design when viewed on different view ports**
+
+![](./src/images/gitHubPics/pm_responsive.png)
+
+# The major functions of the web-app are:
 
 1) Routing
-This is routing
+
 2) Login/Logout
 
 3) Sign up
@@ -24,23 +73,6 @@ This is routing
 10) Responsive, so works well on popular mobile device’s viewport.
 
 11) Implement security and protect data integrity using Cloud Firestore security rules.
-
-The dashboard will show all the project management actions that have been submitted and the
-projects that have been approved will be shown with a green tick on the top. All this will
-appear in a card layout.
-
-To ensure that only registered users are able to able to access the portal, a login feature is
-required. The users can login using their respective registered email addresses and
-secured passwords.
-
-The web-app must enable the users to post their ideas. The ideas will be collected using HTML form
-element and on a button click event, the submission process will begin.
-The data thus collected will be successfully posted to the back-end database server (Firebase Firestore in our case).
-
-Redux is used to handle the application's state. 
-
-React router is used for single page application routing.(more efficient)
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
