@@ -8,6 +8,7 @@
     z-index: 10;
     top: 0px;
     min-height: 86.4px;
+    position: relative;
 }
 .Navbar-logo{
     text-decoration: none;

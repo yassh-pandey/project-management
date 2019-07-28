@@ -62,8 +62,8 @@
         transform: rotate(360deg);
     }
 }
-@media(max-width: 400px){
+@media(max-width: 450px){
     .LandingPage-title{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
