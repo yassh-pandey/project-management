@@ -15,7 +15,7 @@ React router is used for single page application routing.(more efficient)
 
 **Sign up**
 
-To ensure that only registered users are able to able to access the portal, a login/signup feature is
+To ensure that only registered users are able to access the portal, a login/signup feature is
 required. The users can login using their respective registered email addresses and
 secured passwords.
 
