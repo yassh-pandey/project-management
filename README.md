@@ -41,7 +41,7 @@ The data thus collected will be successfully posted to the back-end database ser
 
 ![](./src/images/gitHubPics/err404.png)
 
-**Admin view (which is visible when someone logs in with admin credentials**
+**Admin view (which is visible when someone logs in with admin credentials : userId = admin@admin.com password = admin123**
 
 ![](./src/images/gitHubPics/adminView.png)
 
